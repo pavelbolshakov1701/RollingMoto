@@ -1,0 +1,55 @@
+
+-----
+Test: test_buy_moto.py::test_buy_moto_ataki (call)
+Start time: 2024-01-27 23:51:01.164719
+Start name method: authorization_and_select_moto
+
+End time: 2024-01-27 23:51:27.010166
+End name method: authorization_and_select_moto
+URL: https://www.rollingmoto.ru/catalog/vnedorozhnye_mototsikly/
+
+-----
+
+-----
+Test: test_buy_moto.py::test_buy_moto_ataki (call)
+Start time: 2024-01-27 23:51:27.011691
+Start name method: filltr_moto
+
+End time: 2024-01-27 23:51:37.019543
+End name method: filltr_moto
+URL: https://www.rollingmoto.ru/catalog/mototsikly_ataki/215940/
+
+-----
+
+-----
+Test: test_buy_moto.py::test_buy_moto_ataki (call)
+Start time: 2024-01-27 23:51:37.121854
+Start name method: ataki_MOTO
+
+End time: 2024-01-27 23:51:45.016042
+End name method: ataki_MOTO
+URL: https://www.rollingmoto.ru/personal/cart/
+
+-----
+
+-----
+Test: test_buy_moto.py::test_buy_moto_ataki (call)
+Start time: 2024-01-27 23:51:45.075989
+Start name method: select_cart_over
+
+End time: 2024-01-27 23:51:54.629423
+End name method: select_cart_over
+URL: https://www.rollingmoto.ru/personal/order/make/
+
+-----
+
+-----
+Test: test_buy_moto.py::test_buy_moto_ataki (call)
+Start time: 2024-01-27 23:51:54.673511
+Start name method: buy_moto
+
+End time: 2024-01-27 23:52:12.728636
+End name method: buy_moto
+URL: https://www.rollingmoto.ru/personal/order/make/
+
+-----

@@ -1,0 +1,37 @@
+START TEST BUY MOTO!
+Good value url
+get url https://www.rollingmoto.ru/
+Button "Личный кабинет" click
+Input login
+Input password
+Button "ВОЙТИ" click
+Select and click "Мототехника --> Мотоциклы --> Внедорожные мотоциклы"
+get url https://www.rollingmoto.ru/catalog/vnedorozhnye_mototsikly/
+Good value url
+Перемещение ползунка цены
+Choose "Бренд" --> "KAYO"
+Choose "КУБАТУРА, КУБ.СМ" --> "250"
+Choose "Тип" --> "Кроссовый"
+Choose "Охлаждение" --> "Воздушное" --> "Водяное"
+Search product "Подобрать"
+get url https://www.rollingmoto.ru/catalog/vnedorozhnye_mototsikly/?WIZE_CATALOG_FILTER_P2_MIN=139990&WIZE_CATALOG_FILTER_P2_MAX=289715&WIZE_CATALOG_FILTER_351_2878062298=Y&WIZE_CATALOG_FILTER_333_1548098294=Y&WIZE_CATALOG_FILTER_352_2978066050=Y&WIZE_CATALOG_FILTER_357_2771733348=Y&WIZE_CATALOG_FILTER_357_859726709=Y&set_filter=%D0%9F%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C
+Choose kayo t2 250 mx
+get url https://www.rollingmoto.ru/catalog/mototsikly_kayo/209222/
+Good value url
+Add to cart "В корзину"
+Get cart "Корзина"
+Good comparison
+get url https://www.rollingmoto.ru/personal/cart/
+Good value url
+Click "Оформление" in cart
+get url https://www.rollingmoto.ru/personal/order/make/
+Good value url
+Input "Телефон"
+Input "Адресс доставки"
+Select "Доставка по Москве и МО"
+Select "Сбербанк Онлайн"
+Input "Дополнительная информация" and message
+Good comparison
+Click clear cart
+FINISH TEST BUY MOTO!
+FINISH BUY ONLY ONE MOTO

@@ -1,0 +1,31 @@
+BUY ONLY ONE MOTO
+START TEST BUY MOTO!
+Good value url
+get url https://www.rollingmoto.ru/
+Button "Личный кабинет" click
+Input login
+Input password
+Button "ВОЙТИ" click
+Select and click "Мототехника --> Мотоциклы --> Внедорожные мотоциклы"
+get url https://www.rollingmoto.ru/catalog/vnedorozhnye_mototsikly/
+Good value url
+Choose ataki
+get url https://www.rollingmoto.ru/catalog/mototsikly_ataki/215940/
+Good value url
+Add to cart "В корзину"
+Get cart "Корзина"
+Good comparison
+get url https://www.rollingmoto.ru/personal/cart/
+Good value url
+Click "Оформление" in cart
+get url https://www.rollingmoto.ru/personal/order/make/
+Good value url
+Input "Телефон"
+Input "Адресс доставки"
+Select "Доставка по Москве и МО"
+Select "Сбербанк Онлайн"
+Input "Дополнительная информация" and message
+Good comparison
+Get cart "Корзина"
+Click "Очистить корзину"
+FINISH TEST BUY MOTO!
